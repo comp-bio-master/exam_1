@@ -29,23 +29,70 @@
 * Make sure you are logged into github.
 
 ## Description of Exam 1 
-* Clone the repository for this exam to your home dir in your terminal. 
-* Complete the Exam 1 activities using bash code. It is assumed that your are in your Exam 1 repo directory and that files will not be moved unless specified. 
 
-0. Create a file called `exam1_solutions.sh` in `notepad++` or `bbedit` to record your answers in the form of a script.  For now, you can save the file whereever you want.
+Complete the Exam 1 activities using bash code. It is assumed that your will be in your Exam 1 repo directory and that files will not be moved unless specified. 
 
-1. On line 1 of `exam1_solutions.sh`, add a `bash` shebang!.
-
-2. In the Buzzard et al 2015 data set, use bash commands to determine which genus is the most widespread, and thus occurs in the most plots.
-	Code should return output as follows:
+1. Clone your repository for this exam to your local computer. 
+	* If you have a Win10 computer, then I want you to clone your Exam 1 repo into the windows `Documents` directory. Here is pseudocode to help you get there in your terminal.
 	```bash
-	$ code to isolate the genus observed in the most plots
-	Genus
+	cd /mnt/c/Users/YOUR_WINDOWS_USERNAME/Documents
 	```
 	
-	* On line 3 of `exam1_solutions.sh`, copy and paste this question (2. In the Buzzard ...) and make it a comment
+	* If you have a MAC computer, then I want you to clone your Exam 1 repo into your home dir.
+	```bash
+	cd ~
+	```
 	
+
+2. Create a file called `exam1_solutions.sh` in `notepad++` or `bbedit` to record your answers in the form of a script.  Save it to your Exam 1 repo dir.
+
+3. Take a snapshot of the changes to your Exam 1 repo dir using git.
+
+4. On line 1 of `exam1_solutions.sh`, add a `bash` shebang!.  
+
+5. In the Buzzard et al 2015 data set, use bash commands to determine which species is the most widespread, and thus occurs in the most plots.
+	Code should return output as follows:
+	```bash
+	$ code to isolate the species observed in the most plots
+	Genus species
+	```
+	
+	* On line 3 of `exam1_solutions.sh`, copy and paste this question (5. In the Buzzard ... most plots.) and make it a comment
 	* On line 4 of `exam1_solutions.sh`, copy and paste your working line of code (do not indent).
-	
-* Use git to track the changes made to your local Exam 1 repository as you complete the exercises
+	* Save the changes you made to `exam1_solutions.sh` then take a snapshot of your Exam 1 repo dir with git.
+
+6. Take your line of code from question 5 and save it into a variable named `MostWidespreadSpecies`
+
+	* On line 6 of `exam1_solutions.sh`, copy and paste this question and make it a comment
+	* On line 7 of `exam1_solutions.sh`, copy and paste your working line of code (do not indent).
+
+7. Write a line of code that that uses the variable you made in question 6 to print the following to the screen:
+	```bash
+	The most widespread species is *Genus species*
+	```
+	* On line 9 of `exam1_solutions.sh`, copy and paste this question and make it a comment
+	* On line 10 of `exam1_solutions.sh`, copy and paste your working line of code (do not indent).
+	* Save the changes you made to `exam1_solutions.sh` then take a snapshot of your Exam 1 repo dir with git.
+
+8. Write a line of code that that sets a new variable called `MostWidespreadSpeciesComma` with the contents formatted as follows: `Genus,species` then use this new variable to make a file named `Abund.n_Genus_species.dat` with the abundance of the most widespread species in each plot:
+	```bash
+	$ MostWidespreadSpeciesComma=insert code here
+	$ insert code here to create the file called Abund.n_Genus_species.dat
+	```
+	* On line 12 of `exam1_solutions.sh`, copy and paste this question and make it a comment
+	* On line(s) 13-14 of `exam1_solutions.sh`, copy and paste your working line(s) of code (do not indent).
+	* Save the changes you made to `exam1_solutions.sh` then take a snapshot of your Exam 1 repo dir with git.
+
+9. Use a for loop to add up the total number of trees recored in `Abund.n_Genus_species.dat` and then print the result to the screen as outlined below: 
+	```bash
+	$ for variableA in $(code to list contents of Abund.n_Genus_species.dat); do
+	  variableB=$variableB + $variableA 
+	  done
+	$ code to print result to screen
+	There were variableB Genus species recorded by Buzzard et al (2015).
+	```
+	* On line 16 of `exam1_solutions.sh`, copy and paste this question and make it a comment
+	* On line(s) 17-20 of `exam1_solutions.sh`, copy and paste your working line(s) of code (do not indent).
+	* Save the changes you made to `exam1_solutions.sh` then take a snapshot of your Exam 1 repo dir with git.
+
 * Use git to submit your assignment by pushing it back to your Exam 1 repo on GitHub.
