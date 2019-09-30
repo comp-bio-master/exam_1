@@ -28,9 +28,15 @@
 * You must be a member of our class's github repository. If you are not a member (because you did not accept the initial invite) then please let me know and I'll reinvite you. 
 * Make sure you are logged into github.
 
+---
+
 ## Description of Exam 1 
 
-Complete the Exam 1 activities using bash code. It is assumed that your will be in your Exam 1 repo directory and that files will not be moved unless specified. 
+### I. Knowledge Gained and Comprehension (worth 50% of total exam grade)
+[Answer the questions linked here.](https://forms.office.com/Pages/ResponsePage.aspx?id=8frLNKZngUepylFOslULZlFZdbyVx8RLiPt1GobhHnlUMUc0VVBLTVQ3SU5YTDZJOTlSUDFKQUhFVi4u)
+
+### II. `bash` Scripting (worth 50% of total exam grade)
+Complete the following Exam 1 activities using bash code. It is assumed that your will be in your Exam 1 repo directory and that files will not be moved unless specified. 
 
 1. Clone your repository for this exam to your local computer. 
 	* If you have a Win10 computer, then I want you to clone your Exam 1 repo into the windows `Documents` directory. Here is pseudocode to help you get there in your terminal.
@@ -95,4 +101,7 @@ Complete the Exam 1 activities using bash code. It is assumed that your will be 
 	* On line(s) 17-20 of `exam1_solutions.sh`, copy and paste your working line(s) of code (do not indent).
 	* Save the changes you made to `exam1_solutions.sh` then take a snapshot of your Exam 1 repo dir with git.
 
-* Use git to submit your assignment by pushing it back to your Exam 1 repo on GitHub.
+### III. Extra credit (worth 50% of total exam)
+Use what you have learned to write a script that converts the Buzzard et al (2015) data set to a comma delimited tidy data file with each row being a unique species in the Buzzard et al. (2015) data set, and the columns being the species, the number of plots, the total number of individuals, total biomass, and total basal area for each species.  Use git for version control
+
+### IV. Use git to submit your assignment by pushing it back to your Exam 1 repo on GitHub.
