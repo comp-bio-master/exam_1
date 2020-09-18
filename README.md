@@ -35,7 +35,7 @@ Complete the following Exam 1 activities using bash code. It is assumed that you
 
 3. Take a snapshot of the changes to your Exam 1 repo dir using `git` by adding and committing your changes.
 
-	* everytime after this, when you are asked to "take a snapshot", it means to `add` and `commit` the changes.  You can `push` if you want, but it is not necessary until you submit.
+	* everytime after this, when you are asked to "take a snapshot", it means to `add` and `commit` the changes.  You can `push` if you want, but it is not necessary until you submit.  I like to `push` because it remotely backs up my work on github.
 
 4. On line 1 of `exam1_solutions.sh`, add a `bash` shebang!.  
 
@@ -50,8 +50,9 @@ Complete the following Exam 1 activities using bash code. It is assumed that you
 	* On line 4 of `exam1_solutions.sh`, copy and paste your working line of code (do not indent).
 	* Save the changes you made to `exam1_solutions.sh` then take a snapshot of your Exam 1 repo dir with git.
 
-6. Take your line of code from question 5 and save it into a variable named `MostWidespreadSpecies`
+6. Copy and modify your line of code from question 5 to save the output into a variable named `MostWidespreadSpecies`
 
+	* Do not change line 4
 	* On line 6 of `exam1_solutions.sh`, copy and paste this question and make it a comment
 	* On line 7 of `exam1_solutions.sh`, copy and paste your working line of code (do not indent).
 
@@ -87,4 +88,4 @@ Complete the following Exam 1 activities using bash code. It is assumed that you
 ### III. Extra credit (worth 50% of total exam)
 Use what you have learned to write a script that converts the Buzzard et al (2015) data set to a comma delimited tidy data file with each row being a unique species in the Buzzard et al. (2015) data set, and the columns being the species, the number of plots, the total number of individuals, total biomass, and total basal area for each species.  Use git for version control
 
-### IV. Use git to submit your assignment by pushing it back to your Exam 1 repo on GitHub.
+### IV. Use git to submit your exam by pushing it back to your Exam 1 repo on GitHub.
