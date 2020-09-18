@@ -2,31 +2,6 @@
 
 ## Due 09/25
 
-## Computer Preparation
-* Win10
-  * Log into your Ubuntu terminal.  _We will not use `gitbash` unless you can't get Ubuntu running._ You are in your home directory.
-
-  * If the Ubuntu app is not installed or you are using an Ubuntu terminal that hasn't been setup (you'll know because it will ask you to create a new user name and password), then follow the instructions [here](https://github.com/cbirdlab/wlsUBUNTU_settings/blob/master/README.md) to set it up. Note that I have automated the process and you should be able to complete it in less than a minute.
-  
-  * If the `CSB` directory does not exist in your home directory (check with `ls`), then run the following code to clone the `CSB` repository into your home directory:
-    ```bash
-    git clone https://github.com/CSB-book/CSB.git
-    ```
-
-* MacOS
-
-  * Open a terminal window
-
-  * Consider installing [homebrew](https://brew.sh/).  You will be able to use homebrew to install linux software, such as `tree`, which is used in the slide show.
-  
-  * If the `CSB` directory does not exist in your home directory (check with `ls`), then run the following code to clone the `CSB` repository into your home directory:
-    ```bash
-    git clone https://github.com/CSB-book/CSB.git
-    ```
-
-## GitHub Preparation
-* You must be a member of our class's github repository. If you are not a member (because you did not accept the initial invite) then please let me know and I'll reinvite you. 
-* Make sure you are logged into github.
 
 ---
 
@@ -39,12 +14,19 @@
 Complete the following Exam 1 activities using bash code. It is assumed that your will be in your Exam 1 repo directory and that files will not be moved unless specified. Pseudo code and output formatting is provided, but you must modify it into real bash code to get full credit.
 
 1. Clone your repository for this exam to your local computer. 
+
 	* If you have a Win10 computer, then I want you to clone your Exam 1 repo into the windows `Documents` directory. Here is pseudocode to help you get there in your terminal.
+		
+
+		
 	```bash
 	cd /mnt/c/Users/YOUR_WINDOWS_USERNAME/Documents
 	```
 	
+	* If you are unsure of your Win10 user name, hit tab twice after typing in the file path up to `Users/` to see the options.  You could alternatively right click on your `Documents` folder in the file explorer, select `Properties` and then the `Location` tab to see its file path.  Your Win10 user name is the name of the directory that `Documents` is inside of.
+	
 	* If you have a MAC computer, then I want you to clone your Exam 1 repo into your home dir.
+	
 	```bash
 	cd ~
 	```
