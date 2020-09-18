@@ -17,35 +17,36 @@ Complete the following Exam 1 activities using bash code. It is assumed that you
 
 	* If you have a Win10 computer, then I want you to clone your Exam 1 repo into the windows `Documents` directory. Here is pseudocode to help you get there in your terminal.
 		
-
-		
 	```bash
+	# replace YOUR_WINDOWS_USERNAME with your actual user name
 	cd /mnt/c/Users/YOUR_WINDOWS_USERNAME/Documents
 	```
 	
 	* If you are unsure of your Win10 user name, hit tab twice after typing in the file path up to `Users/` to see the options.  You could alternatively right click on your `Documents` folder in the file explorer, select `Properties` and then the `Location` tab to see its file path.  Your Win10 user name is the name of the directory that `Documents` is inside of.
 	
-	* If you have a MAC computer, then I want you to clone your Exam 1 repo into your home dir.
+	* If you have a Mac computer, then I want you to clone your Exam 1 repo into your home dir.
 	
 	```bash
 	cd ~
 	```
 	
 
-2. Create a file called `exam1_solutions.sh` in `notepad++` or `bbedit` to record your answers in the form of a script.  Save it to your Exam 1 repo dir.
+2. Create a file called `exam1_solutions.sh` in `notepad++` or `bbedit` to record your answers in the form of a script.  Save it in your Exam 1 repo dir.
 
-3. Take a snapshot of the changes to your Exam 1 repo dir using git.
+3. Take a snapshot of the changes to your Exam 1 repo dir using `git` by adding and committing your changes.
+
+	* everytime after this, when you are asked to "take a snapshot", it means to `add` and `commit` the changes.  You can `push` if you want, but it is not necessary until you submit.
 
 4. On line 1 of `exam1_solutions.sh`, add a `bash` shebang!.  
 
-5. In the Buzzard et al 2015 data set, use bash commands to determine which species is the most widespread, and thus occurs in the most plots.
-	Code should return output as follows:
+5. In the Buzzard et al 2015 data set, use bash commands to determine which species occurs in the most plots (and is thus the most widespread).
+	Your code should return output as follows:
 	```bash
-	$ code to isolate the species observed in the most plots
+	$ code to isolate the species observed in the most plots 
 	Genus species
 	```
 	
-	* On line 3 of `exam1_solutions.sh`, copy and paste this question (5. In the Buzzard ... most plots.) and make it a comment
+	* On line 3 of `exam1_solutions.sh`, *copy and paste* this question (5. In the Buzzard ... most plots.) and make it a comment
 	* On line 4 of `exam1_solutions.sh`, copy and paste your working line of code (do not indent).
 	* Save the changes you made to `exam1_solutions.sh` then take a snapshot of your Exam 1 repo dir with git.
 
