@@ -36,7 +36,7 @@ Complete the following Exam 1 activities using bash code. It is assumed that you
 
 4. On line 1 of `exam1_solutions.sh`, add a `bash` shebang!.  
 
-5. In the Buzzard et al 2015 data set, use bash commands to determine which species occurs in the most plots (and is thus the most widespread).
+5. With the Buzzard et al 2015 data set, use bash commands to determine which species occurs in the most plots (and is thus the most widespread).
 	Your code should return output as follows:
 	```bash
 	$ code to isolate the species observed in the most plots 
