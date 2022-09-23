@@ -1,8 +1,5 @@
 # Exam 1
 
-## Due 09/25
-
-
 ---
 
 ## Description of Exam 1 
