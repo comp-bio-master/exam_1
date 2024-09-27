@@ -10,31 +10,15 @@
 ### II. `bash` Scripting (worth 50% of total exam grade)
 Complete the following Exam 1 activities using bash code. It is assumed that your will be in your Exam 1 repo directory and that files will not be moved unless specified. Pseudo code and output formatting is provided, but you must modify it into real bash code to get full credit.
 
-1. Clone your repository for this exam to your local computer. 
+1. Clone your repository for this exam to your local computer.
 
-	* If you have a Windows computer, then I want you to clone your Exam 1 repo into the windows `Downloads` directory. Here is pseudocode to help you get there in your terminal.
-		
-	```bash
-	# replace YOUR_WINDOWS_USERNAME with your actual user name
-	cd /mnt/c/Users/YOUR_WINDOWS_USERNAME/Downloads
-	```
-	
-	* If you are unsure of your Win10 user name, hit tab twice after typing in the file path up to `Users/` to see the options.  You could alternatively right click on your `Downloads` folder in the file explorer, select `Properties` and then the `Location` tab to see its file path.  Your Windows user name is the name of the directory that `Downloads` is inside of.
-	
-	* If you have a Mac computer, then I want you to clone your Exam 1 repo into your home dir, or whereever you'd like .
-	
-	```bash
-	cd ~
-	```
-	
-
-2. Create a file called `exam1_solutions.sh` in `notepad++` or `bbedit` to record your answers in the form of a script.  Save it in your Exam 1 repo dir.
+2. Create a file called `exam1_solutions.sh` in your exam repository to record your answers in the form of a script.  
 
 3. Take a snapshot of the changes to your Exam 1 repo dir using `git` by adding and committing your changes.
 
 	* everytime after this, when you are asked to "take a snapshot", it means to `add` and `commit` the changes.  You can `push` if you want, but it is not necessary until you submit.  I like to `push` because it remotely backs up my work on github.
 
-4. On line 1 of `exam1_solutions.sh`, add a `bash` shebang!.  
+4. Using `notepad++` or `bbedit`, on line 1 of `exam1_solutions.sh`, add a `bash` shebang!.  
 
 5. With the Buzzard et al 2015 data set, use bash commands to determine which species occurs in the most plots (and is thus the most widespread).
 	Your code should return output as follows:
