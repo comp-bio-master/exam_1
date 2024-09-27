@@ -67,6 +67,6 @@ Complete the following Exam 1 activities using bash code. It is assumed that you
 	* Save the changes you made to `exam1_solutions.sh` then take a snapshot of your Exam 1 repo dir with git.
 
 ### III. Extra credit (worth 50% of total exam)
-Use what you have learned to write a script that converts the Buzzard et al (2015) data set to a comma delimited tidy data file with each row being a unique species in the Buzzard et al. (2015) data set, and the columns being the species, the number of plots, the total number of individuals, total biomass, and total basal area for each species.  Use git for version control
+Use what you have learned to write a bash script that converts the Buzzard et al (2015) data set to a comma delimited tidy data file with each row being a unique species in the Buzzard et al. (2015) data set, and the columns being the species, the number of plots, the total number of individuals, total biomass, and total basal area for each species.  Use git for version control
 
 ### IV. Use git to submit your exam by pushing it back to your Exam 1 repo on GitHub.
