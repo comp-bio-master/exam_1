@@ -8,7 +8,7 @@
 [Answer the questions linked here.](https://forms.office.com/Pages/ResponsePage.aspx?id=8frLNKZngUepylFOslULZlFZdbyVx8RLiPt1GobhHnlUMUc0VVBLTVQ3SU5YTDZJOTlSUDFKQUhFVi4u)
 
 ### II. `bash` Scripting (worth 50% of total exam grade)
-Complete the following Exam 1 activities using bash code. It is assumed that your will be in your Exam 1 repo directory and that files will not be moved unless specified. Pseudo code and output formatting is provided, but you must modify it into real bash code to get full credit.
+Complete the following Exam 1 activities using bash code. It is assumed that you will be in your Exam 1 repo directory and that files will not be moved unless specified. Pseudo code and output formatting is provided, but you must modify it into real bash code to get full credit.
 
 1. Clone your repository for this exam to your local computer.
 
